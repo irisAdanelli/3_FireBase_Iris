@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:background="#ffc5de"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.edu.ittepic.a3_firebase_iris.WebActivity"
+    tools:showIn="@layout/activity_web">
+
+    <TextView android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido!!"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#c4006c"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de control:" />
+
+    <EditText
+        android:id="@+id/et_nocrtl_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="14401035" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del alumno:" />
+
+    <EditText
+        android:id="@+id/et_nombre_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="nombre" />
+
+    <Button
+        android:id="@+id/btn_add_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddAlumno"
+        android:text="Agregar Alumno" />
+
+    <Button
+        android:id="@+id/btn_list_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Alumnos"
+        android:onClick="onClickListarAlumno"/>
+
+</LinearLayout>

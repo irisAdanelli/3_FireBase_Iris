@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">3_FireBase_Iris</string>
+    <string name="enter_mail">Ingrese un correo</string>
+    <string name="enter_password">Ingrese contrasenia</string>
+    <string name="registrar">Registrar Usuario</string>
+    <string name="login">Login/Singup</string>
+    <string name="title_activity_web">WebActivity</string>
+</resources>

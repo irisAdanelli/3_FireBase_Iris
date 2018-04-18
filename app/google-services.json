@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142643349251",
+    "firebase_url": "https://irisproyect-370df.firebaseio.com",
+    "project_id": "irisproyect-370df",
+    "storage_bucket": "irisproyect-370df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142643349251:android:d59072997d2dd98b",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.a3_firebase_iris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142643349251-krqlh71sthcdqpi1937gqjrc6q358bhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.ittepic.a3_firebase_iris",
+            "certificate_hash": "4bd597ed15fda32f1679d87fceb4e1557877776a"
+          }
+        },
+        {
+          "client_id": "142643349251-t6o724boiprkdvtj8qpoegqrvgt5cl7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9K-hLnR8NNMiOTpsbQ0ykFLg86JyhVAs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142643349251-t6o724boiprkdvtj8qpoegqrvgt5cl7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
